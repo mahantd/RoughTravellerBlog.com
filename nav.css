@@ -1,0 +1,293 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+/*navbar*/
+#intro1{
+  background:url("bck1m.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   height:660px;width:100%;
+   background-attachment: fixed;
+
+}
+
+header{
+  position: fixed;
+  z-index: 1;
+  margin-top: 0;
+  display:flex;
+  justify-content:space-between;
+  font-weight: bold;
+  color: black;
+  
+}
+header ul {
+    display:flex;
+   }
+ul{
+  list-style-type:none;
+}
+ul li{
+  padding-top: 20px;
+  padding-right:20px;
+  text-align: center;
+  font-weight: bold;
+
+}
+ul a {
+  padding: 20px;
+  text-decoration:none;
+  color: black;
+
+}
+nav ul a:hover {
+  padding: 20px;
+  background:black;
+  color: white;
+
+}
+
+#logo{
+  margin:20px;
+}
+#header{
+  
+    top: 0;
+  width: 100%
+}
+
+/*introduction*/
+
+#intro2{
+  color: white;
+  text-align: center;
+  position: relative;
+  padding-top: 35%;
+  font-size: 20px;
+  
+}
+
+/*Main Introduction*/
+
+#mainintro{
+  background:#f7f7f7;
+    font-weight:bold;
+  height: 660px;
+  line-height: 20px;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+#mainintro p{
+  padding-top:10%;
+  width: 700px;
+  padding-left:300px;
+  line-height: 30px;
+}
+ /*icons*/
+ .fa {
+  margin-top:20px; 
+  padding: 15px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  margin-right: 50px;
+  width: 40px;
+  background: #3B5998;
+  color: white;
+}
+/*instagram*/
+.fa-insagram {
+  background: #3B5998;
+  color: white;
+}
+
+/*Saurastra Camp*/
+#place1{
+  height: 660px;
+  display: grid;
+  grid-template-areas: "imgs texts";
+  grid-template-columns: 2fr 1fr;
+  
+}
+.img1{
+  
+  grid-area: imgs;
+  background: url("http://www.roughtraveller.com/wp-content/uploads/2020/04/IMG_20200406_202353-2-850x638.jpg");
+  height:100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  }
+.header1{
+  color: white;
+  text-align: center;
+  position: relative;
+  padding-top: 5%;
+  font-size: 20px;
+  }
+  .header1  h2{
+    font-size: 2rem;
+    
+  }
+  .header1 h3{
+    font-size: 1rem;
+
+  }
+
+.content1{
+  grid-area: texts;
+  margin-top: 20%;
+  justify-self:center;
+  
+  font-weight: bold;
+  
+ 
+}
+
+.content1 fieldset{
+  background-color: #fdfcfa;
+  border-right: none ;
+  border-left: none;
+  border-bottom:none;
+  
+  height: 400px;
+  width: 300px;
+  border-color: #eee;
+  padding: 15px;
+  
+  font-size: 1.2rem;
+  
+  text-align: center;
+}
+.content1 fieldset p{
+  padding: 10px;
+}
+ .content1 fieldset legend{
+  font-size: 1.5rem;
+  font-weight: 10px;
+}
+
+.content1 button{
+margin-top: 40px;
+  padding: 10px;
+  background-color:#f7fcfe;
+  border-color: black;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+  transition: transform 1s;
+  }
+.content1 button:hover{
+  color: white;
+  font-weight: bold;
+  background: black;
+  transform: scale(1,1);
+}
+/*Random Quote*/
+
+.qut{
+  background:#f7f7f7;
+  height: 660px;
+}
+
+
+
+
+
+
+
+/*Kalsubai*/
+
+.place2{
+  width: 100%;
+   height:660px;
+  display: grid;
+  grid-template-areas: "textk imgk";
+  grid-template-columns: 1fr 2fr;
+  
+  
+}
+
+.img2{
+  grid-area: imgk;
+  background: url("http://www.roughtraveller.com/wp-content/uploads/2020/04/IMG_20200315_075455-1-850x638.jpg");
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+    }
+
+
+.content2{
+  grid-area: textk;
+  margin-top:20%;
+  justify-self:center;
+  position: relative;
+  font-weight: bold;
+
+  }
+  .content2 fieldset{
+
+  background:#fdfcfa ; 
+  height: 400px;
+  width: 300px;
+  border-color: #eee;
+  padding: 15px;
+  
+  font-size: 1.2rem;
+  
+  text-align: center;
+}
+.content2 fieldset p{
+  padding: 10px;}
+
+  .content2 fieldset legend{
+  font-size: 1.5rem;
+  font-weight: 10px;
+}
+
+.content2 button{
+  margin-top: 40px;
+  padding: 10px;
+  background-color:#f7fcfe;
+  border-color: black;
+  font-weight: bold;
+  font-family:'Source Sans Pro', sans-serif;
+  }
+.content2 button:hover{
+  color: white;
+  font-weight: bold;
+  background: black;
+}
+
+  .header2{
+  color: white;
+  text-align: center;
+  position: relative;
+  padding-top: 10%;
+  font-size: 20px;
+  }
+
+  footer{
+    background:#f7f7f7;
+    height: 50px;
+  }
+
