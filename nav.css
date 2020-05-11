@@ -9,7 +9,7 @@ body {
 }
 /*navbar*/
 #intro1{
-  background:url("bck1m.jpg");
+  background:url("bck1.jpg");
    background-repeat: no-repeat;
    background-size:cover;
    height:660px;width:100%;
@@ -286,8 +286,44 @@ margin-top: 40px;
   font-size: 20px;
   }
 
-  footer{
+
+  /*contact me*/
+
+
+  
+
+  .feedbackForm{
+    
     background:#f7f7f7;
-    height: 50px;
+    height: 600px;
+    padding-top:150px;
+    padding-left:430px;
+
   }
 
+.feedbackForm form{
+  text-align: left;
+  font-size: 1.5rem;
+  border:solid;
+  width: 500px;
+  height: 500px;
+  padding-left: 15px;
+  
+  
+}
+
+.feedbackForm form input{
+  height: 2rem;
+  width: 95%;
+}
+
+input:focus {
+  border: 3px solid #555;
+}
+input[type=submit]{
+  font-weight: bold;
+}
+#feedback{
+height: 280px;
+width: 95%;
+}
